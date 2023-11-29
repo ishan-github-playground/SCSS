@@ -1,0 +1,9 @@
+%base-styles{
+    text-align: center;
+}
+
+h1{
+    @extend %base-styles;
+    
+}
+

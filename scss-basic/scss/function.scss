@@ -1,0 +1,16 @@
+@use 'sass:math' as *;
+
+@function myFn($param1,$param2,$parm3){
+    $result:$param1+$param2+$param2;
+
+    @return $result;
+}
+p{
+    padding: myFn(2px,3px ,5px);
+}
+
+body{
+    padding: #{2+4+8}px;
+    height: calc(100vh-100px);
+}
+

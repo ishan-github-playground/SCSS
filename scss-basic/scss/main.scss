@@ -1,0 +1,8 @@
+@use './partials/utils';
+@use './partials/base';
+
+@include base.theme();
+
+h1{
+    @extend .heading;
+}

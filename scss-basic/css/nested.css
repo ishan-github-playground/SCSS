@@ -1,0 +1,18 @@
+h1 {
+  background-color: lightblue;
+}
+h1:hover {
+  background-color: red;
+}
+
+p {
+  padding: 10px;
+}
+p span {
+  background-color: red;
+}
+p span:hover {
+  background-color: gray;
+}
+
+/*# sourceMappingURL=nested.css.map */

@@ -1,0 +1,8 @@
+@mixin my-theme($bgColor,$fontSize){
+    background-color: $bgColor;
+    font-size: $fontSize;
+}
+
+h1{
+    @include my-theme(lime,10px)
+}

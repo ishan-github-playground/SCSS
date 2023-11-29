@@ -1,0 +1,16 @@
+h1 {
+    background-color: lightblue;
+    &:hover{
+        background-color: red;
+    }
+}
+p{
+    padding: 10px;
+    span{
+        background-color: red;
+
+        &:hover{
+            background-color: gray;
+        }
+    }
+}
